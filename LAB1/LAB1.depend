@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+# depslib dependency file v1.0
+1614593895 source:c:\users\nitro\desktop\projekty_gr_4\ps-gr4-noseknorbert\lab1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+=======
 # depslib dependency file v1.0
 1614527858 source:c:\users\nitro\desktop\projekty_gr_4\ps-gr4-noseknorbert\lab1\main.c
 	<stdio.h>
 	<stdlib.h>
 
+>>>>>>> be59df1462a23dd35f451f3d2af6de9d3acb4434
