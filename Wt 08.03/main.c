@@ -112,6 +112,7 @@ int main()
 
     //zad11
 
+    /*
     int a, b, c, d, x;
 
     printf("Podaj liczbe calkowita a : ");
@@ -122,6 +123,51 @@ int main()
     scanf("%d", &c);
     printf("Podaj liczbe calkowita d : ");
     scanf("%d", &d);
+    */
+
+    //zad12
+
+    /*
+    int n;
+    printf("Podaj liczbe calkowita n : ");
+    scanf("%d", &n);
+
+    if(n < 0)
+    {
+        return -1;
+    }
+
+    int wynik = 2;
+    int a = 3;
+
+    do
+    {
+        wynik = wynik + a;
+        a = a + 2;
+    }
+    while(a < n);
+
+    printf("%d", wynik);
+    */
+
+    //zad13
+
+    /*
+    int n;
+    printf("Podaj liczbe calkowita n : ");
+    scanf("%d", &n);
+
+    int wynik = 1;
+    int wynik2 = 1;
+
+    for(int i = 1; i <= n; i++)
+    {
+        wynik *= i;
+        wynik2 += wynik;
+    }
+
+    printf("%d", wynik2);
+    */
 
 
 
