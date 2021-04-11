@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1617009636 source:c:\users\nitro\documents\ps_konsultacje\wtorek-29-03\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1618084893 source:c:\users\nitro\desktop\projekty_gr_4\ps-gr4-noseknorbert\wtorek-29-03\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
