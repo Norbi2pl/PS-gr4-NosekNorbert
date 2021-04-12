@@ -5,20 +5,21 @@ int ile_cyfr(int n)
 {
     int wynik = 0;
 
+    if(n < 10)
+    {
+        wynik++;
+        return wynik;
+    }
+
     do
     {
-        if(n < 10)
-        {
-            wynik++;
-        }
-        else
-        {
-            wynik++;
-        }
+        wynik++;
 
         n = n / 10;
     }
-    while(n < 10);
+    while(n > 10);
+
+    wynik++;
 
     return wynik;
 }

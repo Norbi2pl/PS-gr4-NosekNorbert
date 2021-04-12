@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<math.h>
+#include <math.h>
 
 double srednia(double x, double y, double z)
 {
-    double sr_geo;
+    double sr_geo = sqrt(x * y * z);
 
-    sr_geo = x * y * z;
-
-    return sqrt(sr_geo);
+    return sr_geo;
 }
 
 

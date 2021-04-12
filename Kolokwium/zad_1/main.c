@@ -28,7 +28,7 @@ int zad_1(int n)
         }
     }
     printf("Liczb dodatnich jest : %d\n", wynik_dod);
-    printf("Liczb podzielnych przez 5 jest : %d\n", wynik_podz);
+    printf("Liczb podzielnych przez 5 jest : %f\n", wynik_podz);
 }
 
 int main()
