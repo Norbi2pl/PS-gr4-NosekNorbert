@@ -5,7 +5,7 @@ int ile_cyfr(int n)
 {
     int wynik = 0;
 
-    for(int i = 0; i < n; ++i)
+    do
     {
         if(n < 10)
         {
@@ -16,9 +16,10 @@ int ile_cyfr(int n)
             wynik++;
         }
 
-         n = n / 10;
-
+        n = n / 10;
     }
+    while(n < 10);
+
     return wynik;
 }
 
