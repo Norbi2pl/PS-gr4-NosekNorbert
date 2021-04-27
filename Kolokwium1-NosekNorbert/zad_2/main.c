@@ -16,13 +16,13 @@ int main()
     double x, y, z;
 
     printf("Wpisz pierwsza liczbe : ");
-    scanf("%f", &x);
+    scanf("%lf", &x);
     printf("Wpisz druga liczbe : ");
-    scanf("%f", &y);
+    scanf("%lf", &y);
     printf("Wpisz trzecia liczbe : ");
-    scanf("%f", &z);
+    scanf("%lf", &z);
 
-    printf("%f", srednia(x, y, z));
+    printf("%lf", srednia(x, y, z));
 
     return 0;
 }
