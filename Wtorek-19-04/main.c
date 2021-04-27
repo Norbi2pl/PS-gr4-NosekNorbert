@@ -134,6 +134,26 @@ int main()
 
     //teraz robimy zad 1 e
 
+    int ileNaj = 0;
+    int eleNaj = 0;
+
+    for(short *p = tab; p < tab + n; ++p)
+    {
+        short max = tab[0];
+
+        if(max > *p)
+        {
+            continue;
+        }
+        else
+        {
+            max = *p;
+            eleNaj = max;
+        }
+    }
+
+    printf("Elementow najwiekszych jest : %d", ileNaj);
+
     // 1d i e, 2 b i c
 
     return 0;
