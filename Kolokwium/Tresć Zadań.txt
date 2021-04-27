@@ -1,3 +1,0 @@
-1. Wczytać liczbę naturalną n, a następnie wczytując kolejno n liczb rzeczywistych obliczyć ile jest liczb dodatnich oraz ile jest liczb których podłoga jest podzielna przez 5. Zadbaj o zabezpiecze niewprowadzanych danych.
-2. Napisz funkcję, która oblicza średnią geometryczną dpa podanych trzech argumentów double srednia (double x, double y, double z).
-3. Napisz następującą funkcję oraz odpowiedni program, aby ją przetestować:int ile_cyfr(intn), zwracającą liczbę cyfr argumentu.
