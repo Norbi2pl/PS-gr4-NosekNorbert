@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620637137 source:c:\users\nitro\desktop\projekty_gr_4\ps-gr4-noseknorbert\poniedzialek-10-05\main.c
+	<stdio.h>
+	<stdlib.h>
+
