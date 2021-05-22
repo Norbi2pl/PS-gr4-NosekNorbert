@@ -34,12 +34,36 @@ int tab_6_2_15(int n, int ***arr)
 
 int tab_6_2_18(int ** tab, int n, int m)
 {
-
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < m; j++)
+        {
+            printf("%d", tab[i][j]);
+        }
+        printf("\n");
+    }
 }
+
+int tab_6_2_20(int ** tab, int n, int m)
+{
+    int a = 1;
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < m; j++)
+        {
+            tab[i][j] += a;
+            a++;
+            printf("%d ,", tab[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+
 
 int main()
 {
-    int n = 3;
+    int n = 4;
     int m = 4;
     int **tab;
     tab = malloc(n*sizeof(int*));
@@ -52,6 +76,8 @@ int main()
         for(int j = 0; j < m; j++)
             tab[i][j] = i + j;
     }
+
+    printf("%d", tab_6_2_20(tab, n, m));
 
     //6.2.12,15,18,24,26
 
