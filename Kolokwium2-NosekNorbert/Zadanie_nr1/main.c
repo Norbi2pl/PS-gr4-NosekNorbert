@@ -3,13 +3,13 @@
 #include <string.h>
 
 /*
-Zdefiniuj sta³¹ MAX_LEN, a nastêpnie zdefiniuj C-strukturê Produkt o polach nazwa typu char[MAX_LEN], cenaBrutto typu double oraz stawkaVAT typu float. Zdefiniuj nastêpuj¹ce funkcje:
+Zdefiniuj staÅ‚Ä… MAX_LEN, a nastÄ™pnie zdefiniuj C-strukturÄ™ Produkt o polach nazwa typu char[MAX_LEN], cenaBrutto typu double oraz stawkaVAT typu float. Zdefiniuj nastÄ™pujÄ™ce funkcje:
 Produkt makeProdukt(const char *nazwa, double cenaBrutto, float stawkaVAT)
 Produkt makeProdukt(const Produkt *produkt);
 double cenaNetto(const Produkt *produkt);
 double kwotaVAT(const Produkt *produkt);
 void show(const Produkt *produkt);
-Napisz program testuj¹cy napisane funkcje.
+Napisz program testujÄ…cy napisane funkcje.
 */
 
 #define MAX_LEN 500
@@ -43,7 +43,8 @@ Produkt makeProdukt2(const Produkt *produkt)
 double cenaNetto(const Produkt *produkt)
 {
     double cena;
-    double VAT = (produkt->stawkaVAT) / 100;
+    double VAT = (produkt->stawkaVAT);
+    VAT = VAT / 100;
     VAT += 1;
     cena = produkt->cenaBrutto/VAT;
     return cena;
