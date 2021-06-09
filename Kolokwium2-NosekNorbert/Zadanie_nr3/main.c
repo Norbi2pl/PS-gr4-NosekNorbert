@@ -19,7 +19,7 @@ void odwroc(short tab[], int lewy, int prawy)
 int main()
 {
     const int N = 500;
-    int n;
+    int n = 0;
     int lewy = 0;
     int prawy = 0;
 

@@ -5,7 +5,7 @@ void smallUpper(char *nap)
 {
     for(int i=0; nap[i]!=0; i++)
     {
-        if(nap[i] >= 97 && nap[i] <= 122)
+        if(nap[i] >= 97 && nap[i] <= 122) //tablica ASCII :D
         {
             nap[i]-=32;
         }
